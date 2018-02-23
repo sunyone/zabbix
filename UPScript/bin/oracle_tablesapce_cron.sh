@@ -1,5 +1,5 @@
 #!/bin/bash
-#使用sqlplus获取表空间
+# 使用sqlplus获取表空间
 
 source /home/oracle/.bash_profile
 sqlplus -s zabbix/zabbix  > /tmp/tablespace.log<<EOF
